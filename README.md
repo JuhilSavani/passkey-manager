@@ -8,7 +8,6 @@ different websites or accounts. It employs a combination of randomly generated
 characters, including letters (both uppercase and lowercase), numbers, and
 symbols, to create strong and secure passkeys.
 
-
 Features:
 ---------
 1.  **Add a Passkey:**
@@ -43,7 +42,6 @@ Features:
 6.  **Exit:**
    - Exits the program.
 
-
 Functions:
 ---------
  * randomNum: Generates a random number between specified min and max values.
@@ -59,7 +57,6 @@ Functions:
  * toLower: Converts a string to lowercase.
  * clearConsole: Clears the console screen.
  
-
 File Handling:
 --------------
 The program uses a text file ("records.txt") to store user data, including
@@ -67,13 +64,11 @@ usernames, email addresses, websites, and passkeys. It reads and writes to
 this file to perform operations such as adding, searching, modifying, and
 deleting passkeys.
 
-
 Security Considerations:
 ------------------------
 The program uses a secure passkey generation algorithm that combines
 randomly selected letters, numbers, and symbols to create strong and unique
 passkeys for each user.
-
 
 Implementation Details:
 -----------------------
@@ -87,7 +82,6 @@ Implementation Details:
 - To ensure data integrity, modifications and deletions are performed using 
   temporary files.
 
-
 Usage Instructions:
 -------------------
 1. Run the program, and a menu will be displayed with options to perform 
@@ -95,9 +89,9 @@ Usage Instructions:
 2. Follow on-screen prompts to add, search, modify, delete, or display passkeys.
 3. Exit the program when done.
 
+NOTE:
+-----
+ * clearConsole: Clears the console screen. </br> For mac users --> system("clear"); </br> For windows users --> system("cls");
 
-
-## Authors
-
-- [@JuhilSavani](https://www.github.com/JuhilSavani)
+## Author: [@JuhilSavani](https://www.github.com/JuhilSavani)
 
