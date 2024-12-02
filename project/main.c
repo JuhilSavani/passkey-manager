@@ -455,6 +455,12 @@ void toLower(char *str){
 
 // Clears the console screen
 void clearConsole(){
-    system("clear");
+    #ifdef __APPLE__
+        system("clear");  // macOS
+    #elif defined(_WIN32) || defined(_WIN64)
+        system("cls");    // Windows
+    #else
+        for (int i = 0; i < 50; i++) printf("\n");
+    #endif
     return;
 }
